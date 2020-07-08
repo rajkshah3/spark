@@ -1,0 +1,172 @@
+2018-10-01 10:58:55 WARN  Utils:66 - Your hostname, LPT2766 resolves to a loopback address: 127.0.1.1; using 10.161.153.59 instead (on interface eth0)
+2018-10-01 10:58:55 WARN  Utils:66 - Set SPARK_LOCAL_IP if you need to bind to another address
+2018-10-01 10:58:55 WARN  NativeCodeLoader:62 - Unable to load native-hadoop library for your platform... using builtin-java classes where applicable
+2018-10-01 10:59:03 WARN  BLAS:61 - Failed to load implementation from: com.github.fommil.netlib.NativeSystemBLAS
+2018-10-01 10:59:03 WARN  BLAS:61 - Failed to load implementation from: com.github.fommil.netlib.NativeRefBLAS
+2018-10-01 10:59:03 WARN  LAPACK:61 - Failed to load implementation from: com.github.fommil.netlib.NativeSystemLAPACK
+2018-10-01 10:59:03 WARN  LAPACK:61 - Failed to load implementation from: com.github.fommil.netlib.NativeRefLAPACK
+2018-10-01 11:02:20 ERROR Utils:91 - Uncaught exception in thread stdout writer for python3
+java.lang.AssertionError: assertion failed: Block rdd_15_0 is not locked for reading
+	at scala.Predef$.assert(Predef.scala:170)
+	at org.apache.spark.storage.BlockInfoManager.unlock(BlockInfoManager.scala:299)
+	at org.apache.spark.storage.BlockManager.releaseLock(BlockManager.scala:771)
+	at org.apache.spark.storage.BlockManager$$anonfun$1.apply$mcV$sp(BlockManager.scala:542)
+	at org.apache.spark.util.CompletionIterator$$anon$1.completion(CompletionIterator.scala:44)
+	at org.apache.spark.util.CompletionIterator.hasNext(CompletionIterator.scala:33)
+	at org.apache.spark.InterruptibleIterator.hasNext(InterruptibleIterator.scala:37)
+	at scala.collection.Iterator$class.foreach(Iterator.scala:893)
+	at org.apache.spark.InterruptibleIterator.foreach(InterruptibleIterator.scala:28)
+	at org.apache.spark.api.python.PythonRDD$.writeIteratorToStream(PythonRDD.scala:223)
+	at org.apache.spark.api.python.PythonRunner$$anon$2.writeIteratorToStream(PythonRunner.scala:439)
+	at org.apache.spark.api.python.BasePythonRunner$WriterThread$$anonfun$run$1.apply(PythonRunner.scala:247)
+	at org.apache.spark.util.Utils$.logUncaughtExceptions(Utils.scala:1992)
+	at org.apache.spark.api.python.BasePythonRunner$WriterThread.run(PythonRunner.scala:170)
+Welcome to
+      ____              __
+     / __/__  ___ _____/ /__
+    _\ \/ _ \/ _ `/ __/  '_/
+   /__ / .__/\_,_/_/ /_/\_\   version 2.3.2
+      /_/
+
+Using Python version 3.6.6+ (default, Aug 30 2018 09:41:10)
+SparkSession available as 'spark'.
+3.5298600000000024
+running training rank 1, iterations 1
+running training rank 1, iterations 2
+running training rank 1, iterations 3
+running training rank 1, iterations 4
+running training rank 1, iterations 5
+running training rank 1, iterations 6
+running training rank 2, iterations 1
+running training rank 2, iterations 2
+running training rank 2, iterations 3
+running training rank 2, iterations 4
+running training rank 2, iterations 5
+running training rank 2, iterations 6
+running training rank 3, iterations 1
+running training rank 3, iterations 2
+running training rank 3, iterations 3
+running training rank 3, iterations 4
+running training rank 3, iterations 5
+running training rank 3, iterations 6
+running training rank 4, iterations 1
+running training rank 4, iterations 2
+running training rank 4, iterations 3
+running training rank 4, iterations 4
+running training rank 4, iterations 5
+running training rank 4, iterations 6
+running training rank 5, iterations 1
+running training rank 5, iterations 2
+running training rank 5, iterations 3
+running training rank 5, iterations 4
+running training rank 5, iterations 5
+running training rank 5, iterations 6
+running training rank 6, iterations 1
+running training rank 6, iterations 2
+running training rank 6, iterations 3
+running training rank 6, iterations 4
+running training rank 6, iterations 5
+running training rank 6, iterations 6
+running training rank 7, iterations 1
+running training rank 7, iterations 2
+running training rank 7, iterations 3
+running training rank 7, iterations 4
+running training rank 7, iterations 5
+running training rank 7, iterations 6
+running training rank 8, iterations 1
+running training rank 8, iterations 2
+running training rank 8, iterations 3
+running training rank 8, iterations 4
+running training rank 8, iterations 5
+running training rank 8, iterations 6
+running training rank 9, iterations 1
+running training rank 9, iterations 2
+running training rank 9, iterations 3
+running training rank 9, iterations 4
+running training rank 9, iterations 5
+running training rank 9, iterations 6
+running training rank 10, iterations 1
+running training rank 10, iterations 2
+running training rank 10, iterations 3
+running training rank 10, iterations 4
+running training rank 10, iterations 5
+running training rank 10, iterations 6
+running training rank 11, iterations 1
+running training rank 11, iterations 2
+running training rank 11, iterations 3
+running training rank 11, iterations 4
+running training rank 11, iterations 5
+running training rank 11, iterations 6
+running training rank 12, iterations 1
+running training rank 12, iterations 2
+running training rank 12, iterations 3
+running training rank 12, iterations 4
+running training rank 12, iterations 5
+running training rank 12, iterations 6
+running training rank 13, iterations 1
+running training rank 13, iterations 2
+running training rank 13, iterations 3
+running training rank 13, iterations 4
+running training rank 13, iterations 5
+running training rank 13, iterations 6
+running training rank 14, iterations 1
+running training rank 14, iterations 2
+running training rank 14, iterations 3
+running training rank 14, iterations 4
+running training rank 14, iterations 5
+running training rank 14, iterations 6
+running training rank 15, iterations 1
+running training rank 15, iterations 2
+running training rank 15, iterations 3
+running training rank 15, iterations 4
+running training rank 15, iterations 5
+running training rank 15, iterations 6
+running training rank 16, iterations 1
+running training rank 16, iterations 2
+running training rank 16, iterations 3
+running training rank 16, iterations 4
+running training rank 16, iterations 5
+running training rank 16, iterations 6
+running training rank 17, iterations 1
+running training rank 17, iterations 2
+running training rank 17, iterations 3
+running training rank 17, iterations 4
+running training rank 17, iterations 5
+running training rank 17, iterations 6
+running training rank 18, iterations 1
+running training rank 18, iterations 2
+running training rank 18, iterations 3
+running training rank 18, iterations 4
+running training rank 18, iterations 5
+running training rank 18, iterations 6
+running training rank 19, iterations 1
+running training rank 19, iterations 2
+running training rank 19, iterations 3
+running training rank 19, iterations 4
+running training rank 19, iterations 5
+running training rank 19, iterations 6
+running training rank 20, iterations 1
+running training rank 20, iterations 2
+running training rank 20, iterations 3
+running training rank 20, iterations 4
+running training rank 20, iterations 5
+running training rank 20, iterations 6
+running training rank 21, iterations 1
+running training rank 21, iterations 2
+running training rank 21, iterations 3
+running training rank 21, iterations 4
+running training rank 21, iterations 5
+running training rank 21, iterations 6
+running training rank 22, iterations 1
+running training rank 22, iterations 2
+running training rank 22, iterations 3
+running training rank 22, iterations 4
+running training rank 22, iterations 5
+running training rank 22, iterations 6
+running training rank 23, iterations 1
+running training rank 23, iterations 2
+running training rank 23, iterations 3
+running training rank 23, iterations 4
+running training rank 23, iterations 5
+running training rank 23, iterations 6
+running training rank 24, iterations 1
